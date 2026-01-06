@@ -1,0 +1,9 @@
+{
+  "name": "SaaS Mimari 2026: Titan Stack",
+  "description": "Bun, Hono, Drizzle ve React kullanarak yüksek performanslı, uçtan uca tip güvenli B2B SaaS platform mimarisi.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
