@@ -2,6 +2,8 @@
 
 > "Geleceğin SaaS mimarisi, bugün atılan vizyoner adımlarla şekillenir."
 
+![TitanStack 2026 Showcase](./docs/titan-manifesto.png)
+
 TitanStack 2026, modern web geliştirme ekosistemindeki en ileri teknolojileri bir araya getiren, performans odaklı, AI-Native ve ölçeklenebilir bir kurumsal uygulama altyapısıdır. Bu proje, sadece bir kod yığını değil; bir baş mimar (Principal Architect) perspektifiyle tasarlanmış, disiplinli bir mühendislik manifestosudur.
 
 ## 🌟 Vizyon
