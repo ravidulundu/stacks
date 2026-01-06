@@ -20,7 +20,7 @@ if (process.platform === "win32") {
 }
 
 // Manifesto Madde 2.A: "Bun Zig-native Runtime zorunludur."
-if (!Bun.version.startsWith("1") && !Bun.version.startsWith("2")) {
+if (!Bun.version.startsWith("1")) {
   console.error("\\n❌ KRİTİK MİMARİ İHLALİ [Madde 2.A]");
   console.error(\`   Tespit Edilen Runtime: Bun v\${Bun.version}\`);
   console.error("   Gereken Runtime: Bun v1.x+ (Zig-native)");
@@ -390,7 +390,7 @@ const app = new Hono<{ Variables: { tenantId: string } }>()
   .get('/api/health', (c) => c.json({
     status: 'healthy',
     runtime: 'bun',
-    version: '2.x',
+    version: '1.x',
     topology: 'edge-native'
   }))
 
