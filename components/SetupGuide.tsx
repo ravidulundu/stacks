@@ -640,7 +640,7 @@ async function run() {
 
     // 4. Bağlılıkları Yükle (Install)
     console.log("📦 TitanStack Çekirdeği İnşa Ediliyor...");
-    await $\\\`bun install\\\`;
+    await $\`bun install\`;
 
     // 5. Kaynak Kodları (Source Code)
     await write("src/app/index.ts", templates.honoIndex);

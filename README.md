@@ -76,6 +76,18 @@ Projeyi yerel ortamınızda ayağa kaldırmak için aşağıdaki adımları izle
     bun run build
     ```
 
+### 🛠️ Yeni Proje Başlatma (Scaffolding)
+
+TitanStack 2026 mimarisiyle yeni bir proje başlatmak için yerleşik iskelet scriptini kullanabilirsiniz:
+
+1.  Uygulama içindeki **"Kurulum"** sekmesine gidin.
+2.  Oradaki **Titan Scaffolder** scriptini kopyalayıp bir `setup.ts` dosyasına yapıştırın.
+3.  Terminalde şu komutu çalıştırın:
+    ```bash
+    bun run setup.ts [proje-adiniz]
+    ```
+    _Bu komut; klasör yapısını, gerekli tüm konfigürasyonları (Vite, Tailwind, ESlint vb.) ve temel dosya şablonlarını otomatik olarak oluşturacaktır._
+
 ## 📜 Mimari Manifestosu
 
 TitanStack'te kod yazarken şu kurallara sadık kalınır:
